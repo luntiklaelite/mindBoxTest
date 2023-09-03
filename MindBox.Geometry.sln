@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32428.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBox.Geometry", "MindBox.Geometry\MindBox.Geometry.csproj", "{2CF1169E-B3E7-412B-8827-75731F4C4878}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MindBox.Geometry.Tests", "MindBox.Geometry.Tests\MindBox.Geometry.Tests.csproj", "{4BB2B49F-843D-4EA1-A541-FCB3CE241804}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8436B268-3936-45EA-929B-E0439FD9A615}"
+	ProjectSection(SolutionItems) = preProject
+		initDb.sql = initDb.sql
+		README.MD = README.MD
+		selectProductsWithCategories.sql = selectProductsWithCategories.sql
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CF1169E-B3E7-412B-8827-75731F4C4878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CF1169E-B3E7-412B-8827-75731F4C4878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CF1169E-B3E7-412B-8827-75731F4C4878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CF1169E-B3E7-412B-8827-75731F4C4878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB2B49F-843D-4EA1-A541-FCB3CE241804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB2B49F-843D-4EA1-A541-FCB3CE241804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB2B49F-843D-4EA1-A541-FCB3CE241804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB2B49F-843D-4EA1-A541-FCB3CE241804}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03A6B324-7C35-469A-8C41-804B42453B85}
+	EndGlobalSection
+EndGlobal
